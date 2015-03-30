@@ -1,11 +1,9 @@
 require "formula"
 
-class Kvm < Formula
+class dnvm < Formula
   homepage "https://www.github.com/aspnet/Home"
   version "1.0.0-dev"
   url "https://github.com/aspnet/Home.git", :branch=> 'dev'
-
-  head "https://github.com/aspnet/Home.git", :branch => 'dev'
 
   depends_on "mono" => :recommended
 
