@@ -2,8 +2,8 @@ require "formula"
 
 class Kvm < Formula
   homepage "https://www.github.com/aspnet/Home"
-  version "1.0.0-beta3"
-  url "https://github.com/aspnet/Home.git"
+  version "1.0.0-dev"
+  url "https://github.com/aspnet/Home.git", :branch=> 'dev'
 
   head "https://github.com/aspnet/Home.git", :branch => 'dev'
 
