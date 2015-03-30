@@ -13,8 +13,6 @@ class Dnvm < Formula
     (libexec + "mono").make_symlink Formula["mono"].opt_bin/"mono"
     system "bash -c 'source #{libexec}/dnvm.sh; dnvm upgrade'"
     bin.install_symlink "#{libexec}/dnvm.sh"
-#    bin.install_symlink "#{libexec}/current/dnx"
-#    bin.install_symlink "#{libexec}/current/dnu"
   end
 
   def caveats; <<-EOS.undent
