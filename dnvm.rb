@@ -20,7 +20,7 @@ class Dnvm < Formula
   def caveats; <<-EOS.undent
     Add the following to the ~/.bash_profile, ~/.bashrc or ~/.zshrc file:
 
-      source kvm.sh
+      source dnvm.sh
 
     EOS
   end
