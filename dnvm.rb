@@ -11,7 +11,7 @@ class Dnvm < Formula
     libexec.install "dnvm.sh"
     (libexec + "dnvm.sh").chmod 0755
     (libexec + "mono").make_symlink Formula["mono"].opt_bin/"mono"
-    system "source #{libexec}/dnvm.sh; dnvm upgrade"
+    system "bash -c 'source #{libexec}/dnvm.sh; dnvm upgrade'"
     bin.install_symlink "#{libexec}/dnvm.sh"
   end
 
