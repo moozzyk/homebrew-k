@@ -1,6 +1,6 @@
 require "formula"
 
-class dnvm < Formula
+class Dnvm < Formula
   homepage "https://www.github.com/aspnet/Home"
   version "1.0.0-dev"
   url "https://github.com/aspnet/Home.git", :branch=> 'dev'
